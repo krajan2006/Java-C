@@ -1,0 +1,13 @@
+%x	Integer hexadecimal
+%s	String
+%n	Inserts a newline character
+%o	Octal integer
+%f	Decimal floating-point
+%e	Scientific notation
+%g	Causes Formatter to use either %f or %e, whichever is shorter
+%h	Hash code of the argument
+%d	integer
+%c	Character
+%b	Boolean
+%a	Floating-point hexadecimal
+%t	Time and Date
