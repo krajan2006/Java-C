@@ -2,7 +2,7 @@ package Introduction;
 
 import java.util.Scanner;
 
-public class DifferentScan 
+public class eDifferentScan 
 {
     public static void main(String[] args) 
     {

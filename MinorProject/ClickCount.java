@@ -1,15 +1,15 @@
-package AWT;
+package MinorProject;
 
 import java.awt.*;
 import java.awt.event.*;
 
-class MyFrame1 extends Frame implements ActionListener
+class MyFrame extends Frame implements ActionListener
 {
     int count = 0;
     Label l;
     Button b;
 
-    public MyFrame1()
+    public MyFrame()
     {
         super("Button Demo");
 
@@ -32,12 +32,13 @@ class MyFrame1 extends Frame implements ActionListener
 
 }
 
-public class ButtonAndActionListener 
+public class ClickCount 
 {
     public static void main(String[] args) 
     {
-        MyFrame1 f = new MyFrame1();
+        MyFrame f = new MyFrame();
         f.setVisible(true);
         f.setSize(400,400);
     }
 }
+

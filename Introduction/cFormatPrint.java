@@ -1,6 +1,6 @@
 package Introduction;
 
-public class FormatPrint 
+public class cFormatPrint 
 {  
     public static void main(String[] args) 
     {    

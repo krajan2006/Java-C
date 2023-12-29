@@ -2,12 +2,12 @@ package AWT;
 
 import java.awt.*;
 
-public class CreatFrame1 
+public class aCreatFrame1 
 {
     public static void main(String[] args) 
     {
         //create frame with title
-        Frame f = new Frame("My App");
+        Frame f = new Frame("Frame Demo");
         f.setLayout(new FlowLayout());
 
         //initialies component

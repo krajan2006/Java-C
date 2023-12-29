@@ -2,15 +2,15 @@ package AWT;
 
 import java.awt.*;
 
-public class CreatFrame3 extends Frame
+class MyFrame extends Frame
 {
     Label l;
     TextField tf;
     Button b;
 
-    public CreatFrame3()
+    public MyFrame()
     {
-        super("My App");
+        super("Frame Demo");
         //setting tittle by calling string argument constuctor of parent class
 
         setLayout(new FlowLayout());
@@ -23,9 +23,13 @@ public class CreatFrame3 extends Frame
         add(tf);
         add(b);
     }
+}
+
+public class bCreatFrame2 
+{
     public static void main(String[] args) 
     {
-        CreatFrame3 f = new CreatFrame3();
+        MyFrame f = new MyFrame();
         f.setSize(600, 600);
         f.setVisible(true);
 

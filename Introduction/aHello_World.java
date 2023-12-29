@@ -1,6 +1,6 @@
 package Introduction;
 
-public class Hello_World 
+public class aHello_World 
 {
     public static void main(String[] args) 
     {

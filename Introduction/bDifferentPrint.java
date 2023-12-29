@@ -1,6 +1,6 @@
 package Introduction;
 
-public class DifferentPrint 
+public class bDifferentPrint 
 {
     public static void main(String[] args) 
     {
