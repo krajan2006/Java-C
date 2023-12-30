@@ -2,13 +2,13 @@ package AWT;
 
 import java.awt.*;
 
-class MyFrame extends Frame
+public class aCreatFrame3 extends Frame
 {
     Label l;
     TextField tf;
     Button b;
 
-    public MyFrame()
+    public aCreatFrame3()
     {
         super("Frame Demo");
         //setting tittle by calling string argument constuctor of parent class
@@ -23,13 +23,9 @@ class MyFrame extends Frame
         add(tf);
         add(b);
     }
-}
-
-public class bCreatFrame2 
-{
     public static void main(String[] args) 
     {
-        MyFrame f = new MyFrame();
+        aCreatFrame3 f = new aCreatFrame3();
         f.setSize(600, 600);
         f.setVisible(true);
 

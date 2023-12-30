@@ -32,7 +32,7 @@ class MyFrame1 extends Frame implements ActionListener
 
 }
 
-public class dButtonAndActionListener 
+public class bButtonAndActionListener 
 {
     public static void main(String[] args) 
     {

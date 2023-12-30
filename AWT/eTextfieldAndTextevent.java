@@ -52,7 +52,7 @@ class MyFrame4 extends Frame
     }
 }
 
-public class gTextfieldAndTextevent 
+public class eTextfieldAndTextevent 
 {
     public static void main(String[] args) 
     {

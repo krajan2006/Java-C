@@ -4,23 +4,21 @@ import java.awt.*;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
 
-class MyFrame3 extends Frame implements ItemListener
+class MyFrame2 extends Frame implements ItemListener
 {
     Label l;
     Checkbox c1,c2,c3;
-    CheckboxGroup cbg;                                      //change
 
-    public MyFrame3()
+    public MyFrame2()
     {
-        super("RadioButton Demo");
+        super("CheckBox Demo");
 
         setLayout(new FlowLayout());
 
         l= new Label("Nothing is selected");
-        cbg= new CheckboxGroup();                           //change
-        c1=new Checkbox("Java",false,cbg);      //change
-        c2=new Checkbox("Python",false,cbg);    //change
-        c3=new Checkbox("C#",false,cbg);        //change
+        c1=new Checkbox("Java");
+        c2=new Checkbox("Python");
+        c3=new Checkbox("C#");
 
         add(l);
         add(c1);
@@ -56,11 +54,11 @@ class MyFrame3 extends Frame implements ItemListener
     }
 }
 
-public class fRadiobuttonAndItemlistener 
+public class cCheckboxAndItemlistener 
 {
     public static void main(String[] args) 
     {
-        MyFrame3 f = new MyFrame3();
+        MyFrame2 f = new MyFrame2();
         f.setVisible(true);
         f.setSize(400,400);
 

@@ -38,7 +38,7 @@ class MyFrame5 extends Frame implements ActionListener
 
 }
 
-public class hTextareaOperation 
+public class fTextareaOperation 
 {
     public static void main(String[] args) 
     {
