@@ -1,0 +1,14 @@
+*AWT
+-Platform Dependent
+-Heavy Weight
+-Few Component
+-Host Look and Feel
+-No MVC
+
+
+*Swing
+-Independent
+-Light Weight
+-Many Component
+-Pluggable Look and Feel
+-Support MVC
