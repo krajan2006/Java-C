@@ -1,11 +1,11 @@
 package AbstractClasses;
 
-abstract class Super
+abstract class SUPER
 {
     abstract public void meth1();
 }
 
-class Sub extends Super
+class SUB extends SUPER
 {
     public void meth1()
     {
@@ -17,6 +17,6 @@ public class AbstractRule
 {
     public static void main(String[] args) 
     {
-        //Super s;  
+        //SUPER s;  
     }
 }

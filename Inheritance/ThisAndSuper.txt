@@ -1,0 +1,6 @@
+this - use to refer the current object which was called.
+for example object is created 
+Rectangle r1=new Rectangle();
+here this will refer to r1
+
+super -use to specify which constuctor of parent class will be called in inheritence

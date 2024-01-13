@@ -1,0 +1,3 @@
+interface class
+-compelety used for polymorphism (Overriding)
+-all method does not have body in interface class

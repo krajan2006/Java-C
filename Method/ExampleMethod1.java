@@ -1,6 +1,6 @@
 package Method;
 
-public class CreatMethod1 
+public class ExampleMethod1 
 {
     public static int max(int x, int y)//x & y are formal parameter
     {

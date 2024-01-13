@@ -7,7 +7,6 @@ public class Recursion
         if(n>0)
         {
             fun(n-1);
-
             System.out.println(n);
         }
     }

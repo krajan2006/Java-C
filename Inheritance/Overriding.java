@@ -1,18 +1,18 @@
 package Inheritance;
 
-class Super
+class SUPER
 {
     public void display()
     {
-        System.out.println("Super Display");
+        System.out.println("SUPER Display");
     }
 }
 
-class Sub extends Super
+class SUB extends SUPER
 {
     public void display()
     {
-        System.out.println("Sub Display");
+        System.out.println("SUB Display");
     }
 }
 
@@ -20,7 +20,7 @@ public class Overriding
 {
     public static void main(String[] args) 
     {
-        Super s=new Sub();
+        SUPER s=new SUB();
         s.display();
           
     }    

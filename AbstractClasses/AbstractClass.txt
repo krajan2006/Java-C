@@ -1,0 +1,14 @@
+Two type of class
+
+1) Abstract class
+-abstract class is used when zero or more abstract method 
+(method which does not have body)is present in class 
+-can not create object of abstract class
+-can create reference 
+
+2)Concrete class
+-class having method,all have body
+-can create object of concrete class
+-can create reference
+
+#for abstract class and abstract method can not use static and final keyword.

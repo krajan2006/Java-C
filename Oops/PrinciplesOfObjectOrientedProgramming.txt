@@ -1,0 +1,38 @@
+-->Principle Of Object Oriented Programming
+
+*Encapsulation:
+"This principle is about bundling the data and methods that operate on the data
+into a single unit known as a class. It restricts direct access to some of an 
+objects components and can prevent the accidental modification of data."
+
+*Inheritance:
+"This principle allows a class to inherit properties and behaviors from another 
+class. It promotes code reusability and the creation of a hierarchy of classes."
+
+*Polymorphism:
+"This principle allows objects of different classes to be treated as objects of a 
+common superclass. Polymorphism is achieved through method overriding and interfaces."
+
+*Abstraction: 
+"Abstraction involves hiding the complex implementation details and showing only 
+the necessary features of an object. Abstract classes and interfaces are used to 
+achieve abstraction."
+
+
+-->Class
+A class is a user-defined data type in Java that defines a blueprint for objects.
+It encapsulates data and methods that operate on the data.
+Classes serve as templates for creating objects.
+
+-->Object
+An object is an instance of a class.
+It represents a real-world entity and is created using the new keyword followed by a call to the class constructor.
+Objects have state (values of attributes) and behavior (methods that can be performed).
+
+-->Instance Variables
+Each object has its own set of instance variables (attributes) that represent its state.
+In the example above, model and year are instance variables of the Car class.
+
+-->Methods
+Objects can perform actions through methods.
+The start() method in the Car class is an example of a method associated with the object.

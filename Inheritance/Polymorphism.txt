@@ -1,0 +1,7 @@
+
+polymorphism - many forms
+
+polymorphism can be achived using 
+1)Overloadind
+2)Overriding
+

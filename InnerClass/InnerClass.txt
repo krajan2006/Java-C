@@ -1,0 +1,8 @@
+*InnerClass - class inside class
+
+*Type of Inner Class
+1) Nested Inner Class
+2) Local Inner Class
+3) Anonymous Inner Class
+4) Static Inner Class
+

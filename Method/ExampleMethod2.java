@@ -1,6 +1,6 @@
 package Method;
 
-public class CreatMethod2 
+public class ExampleMethod2 
 {
     public int max(int x, int y)//x & y are formal parameter
     {
@@ -15,7 +15,7 @@ public class CreatMethod2
     }
     public static void main(String[] args) 
     {
-        CreatMethod2 meth = new CreatMethod2();
+        ExampleMethod2 meth = new ExampleMethod2();
         int a=100;
         int b=109;
         int c;
