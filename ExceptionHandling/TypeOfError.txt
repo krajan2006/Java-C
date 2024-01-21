@@ -1,0 +1,28 @@
+--> Type of error
+
+1)syntax error
+-handle by compilar
+
+2)logical error
+-handle by debugging
+
+3)runtime error(Exception)
+-handle by exception handling
+
+*syntax of try catch block
+try 
+{
+    //  Block of code to try
+}
+catch(Exception e) -->subclass
+{
+    //  Block of code to handle errors
+}
+catch(Exception e) -->superclass
+{
+    //  Block of code to handle errors
+}
+finally
+{
+    // block of code to definetly excute
+}

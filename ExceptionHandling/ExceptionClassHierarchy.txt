@@ -1,0 +1,26 @@
+==>hierarchy of exception class
+
+    object
+    |
+    |
+    throwable
+    |       |
+    |       |
+    |      Error
+    |
+Exception
+1) CheckedException/CompileTimeException/MustHandleException
+->ClassNOtFoundException
+->IOException
+->InterruptedException
+->NumberFormatException
+2) UncheckedException/RuntimeException/MayHandleException
+->ArithmeticException
+->IndexOutOfBoundException
+->NullPointerException
+
+==>Exception class method
+
+1)String getMessage()
+2)String toString()
+3)Void printStackTrace()
