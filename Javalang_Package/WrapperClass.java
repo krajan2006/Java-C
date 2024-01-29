@@ -1,7 +1,5 @@
 package Javalang_Package;
 
-
-
 public class WrapperClass 
 {
     public static void main(String[] args) 

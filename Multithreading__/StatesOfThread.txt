@@ -1,0 +1,4 @@
+States of thread 
+1)Wait
+2)Timed wait
+3)Blocked

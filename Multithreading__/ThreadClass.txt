@@ -1,0 +1,35 @@
+*Constructor of Thread class
+Thread()
+Thread(Runable r,String name)
+Thread(ThreadGroup g,String name)
+Thread(String name)
+
+*getxxx() method of thread class
+Long getId()
+String getName()
+int getPriority()
+Thread getState()
+ThraedGroup getThreadGroup()
+
+*setxx() method of thread class
+void setName(String name)
+void setPriority(int p)
+void setDaemon(boolean d)
+
+*Enquing method of thread class
+boolean isActive
+boolean isDaemon()
+boolean isInterrupted()
+
+*instant method of thread class
+void interrup()
+void join()
+void join(long millis)
+void run()
+void start()
+
+*static method of thread class
+int activeCount()
+Thread currentThread()
+void yield()
+void dumpStack()
